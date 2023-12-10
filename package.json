@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "homepage": "https://mdoan75.github.io/CreateAReactApp/",
   "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+   "engines": {
+    "npm": "8.15.0",
+    "node": "16.17.0"
   },
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
@@ -14,9 +13,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
